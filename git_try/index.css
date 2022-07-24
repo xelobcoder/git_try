@@ -1,0 +1,208 @@
+c:/Users/leonides/Desktop/git_try/git_try/index.html
+git add ./
+aint: #fff;
+    --color-primary-medium: #fff;
+    --color-primary-deep: #fff;
+    --color-secondary-faded: #333;
+    --color-secondary-faint: #444;
+    --color-secondary-medium: var(--shade-7);
+    --color-secondary-deep: #eaeaea;
+    --color-success-faded: #272f33;
+    --color-success-faint: #3d474d;
+    --color-success-medium: #2ca4ab;
+    --color-success-deep: #f1feff;
+    --color-error-faded: #e60000;
+    --color-error-faint: red;
+    --color-error-medium: red;
+    --color-error-deep: #f33;
+    --color-warning-faded: #fef3dc;
+    --color-warning-faint: #ffdfaa;
+    --color-warning-medium: #ffb300;
+    --color-warning-deep: #ab570a;
+    --color-text-default: #e7e9ea;
+    --color-text-faded: #777;
+    --color-text-inverse: #000;
+    --color-text-link: #2ca4ab;
+    --color-text-warning: #f7b955;
+    --color-text-error: #f33;
+    --color-background-default: #1f2125;
+    --color-background-elevated: var(--shade-8);
+    --color-background-alternative-faded: var(--shade-9);
+    --color-background-alternative-faint: var(--shade-8);
+    --color-background-alternative-medium: var(--shade-7);
+    --color-background-alternative-deep: var(--shade-5);
+    --color-background-inverse: #fff;
+    --color-background-backdrop: rgba(0,0,0,.8);
+    --color-background-lighten: rgba(0,0,0,.75);
+    --color-borders-hairline: #464b50;
+    --color-highlight: #2ca4ab;
+    --shadow-small: 0px 2px 4px var(--shade-9);
+    --shadow-normal: 0px 4px 8px var(--shade-9);
+    --shadow-large: 0 5px 10px var(--shade-9);
+    --shadow-xlarge: 0 8px 30px var(--shade-9);
+    --shadow-jumbo: 0 30px 60px var(--shade-9);
+    --shadow-hover: 0 30px 60px var(--shade-9);
+    --shadow-sticky: 0 12px 10px -10px var(--shade-9);
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.--w-xxl {
+    width: 100vw;
+}
+
+.--height-xxl {
+    height: 100vh;
+    overflow-y: auto;
+}
+.--height-lg{
+    height: 75vh;
+    overflow-y: auto;
+}
+
+.--height-md{
+    height: 50vh;
+    overflow-y: auto;
+}
+.--height-sm{
+    height: 25vh;
+    overflow-y: auto;
+}
+
+.--w-lg{
+    width: 75vw;
+}
+
+.--w-md{
+    width: 50vw;
+}
+
+.--w-sm{
+    width: 25vw;
+}
+.--lobnos-card{
+    border: 1px solid lightgray;
+    background-color: white;
+    box-shadow: 2px 2px 3px lightgray;
+}
+
+.--lobnos-body{
+    margin: 0;
+    padding: 10px;
+}
+
+.--lobnos-header{
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    margin: 0;
+}
+
+.--p5{
+    padding: 5px 5px 5px 5px;
+}
+
+.--p10{
+    padding: 10px 10px 10px 10px;
+}
+.--p20{
+    padding: 20px 20px 20px 20px;
+}
+
+.--header-title-lg{
+    font-size: 22px;
+    font-weight: 500 !important;
+}
+
+.--header-title-sm {
+    font-size: 20px;
+    font-weight:500;
+}
+.--cubic-card{
+    background-color: white;
+    height: 7vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+.--cubic-title{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: whitesmoke; */
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
+.--cubic-body{
+    color: gray;
+    font-size: 14px;
+
+}
+
+.--cubic-card:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.--b-gray{
+    border: 1px solid gray;
+}
+
+.--b-lightgray{
+    border: 1px solid lightgray;
+}
+.--b-darkgray{
+    border: 1px solid darkgray;
+}
+.--split-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.--split-3{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap: 10px;
+}
+.--split-4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+}
+.--split-5{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: 10px;
+}
+.--split-6{
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    grid-gap: 10px;
+}
+.--btn{
+   border: 1px solid lightgray;
+   padding: 10px;
+   font-weight: 500;
+}
+.--btn-white{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+.--danger{
+    background-color: var(--color-error-deep);
+    color: var(var(--color-error-deep));
+}
+.--white{
+    background-color: white;
+    color: black;
+}
+.--text-white{
+    color: white;
+}
